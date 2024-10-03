@@ -1,0 +1,387 @@
+.landing {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Teko", "Arial", sans-serif;
+}
+
+.landing .logo {
+    margin-top: 40px;
+}
+
+.landing .logo .nldb img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .landing .logo .nldb img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+.landing .logo .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .logo .title {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 80%;
+    width: 600px;
+}
+
+.landing .village img {
+    width: 100%;
+    max-width: 1700px;
+}
+
+.landing .actions {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+}
+
+.landing .actions .btn {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section .header {
+    margin-top: 10px;
+}
+
+.section .header .icon img {
+    height: 128px;
+    margin-bottom: 10px;
+}
+
+.section .header .title {
+    width: 100%;
+    font-size: 2em;
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 500;
+}
+
+.section .header .description {
+    display: inline-block;
+    font-size: 1.3em;
+    max-width: 300px;
+    opacity: .6;
+}
+
+.section .content {
+    width: 100%;
+}
+
+.section .content .note {
+    display: inline-block;
+    color: #666;
+    font-size: .95em;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.section .actions .btn {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section.padded {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.section.padded.continuous {
+    padding-top: 0px;
+}
+
+.section.grey {
+    background-color: #fafafa;
+}
+
+.section.white {
+    background-color: white;
+}
+
+.section.black {
+    color: white;
+    background-color: black;
+}
+
+.section.dual {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .section.dual {
+        grid-template-columns: 100%;
+    }
+}
+
+.section.dual > .column {
+    text-align: center;
+    min-height: 600px;
+    height: 600px;
+}
+
+.section.dual > .column.grey {
+    background-color: #fafafa;
+}
+
+#brief .content {
+    display: inline-block;
+    max-width: 80%;
+    font-size: 2em;
+    height: 700px;
+}
+
+#location {
+    background-image: url(../images/index/village.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#location .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+#location .box {
+    padding: 10px 20px;
+    font-family: "Orbitron", sans-serif;
+    background-color: black;
+}
+
+#location .date {
+    font-size: 3em;
+    color: #D869C9;
+}
+
+#location .location {
+    font-size: 1.5em;
+    color: white;
+}
+
+#dates table {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+#dates td {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#dates td:first-child div {
+    text-align: center;
+    width: 100px;
+    font-size: .8em;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+#dates td:nth-child(2) {
+    padding-left: 15px;
+}
+
+#dates td:last-child {
+    padding-left: 15px;
+    text-align: right;
+}
+
+#dates tr.in-progress td:first-child div {
+    color: white;
+    background-color: #066CDF;
+}
+
+#dates tr.in-progress td:nth-child(2),
+#dates tr.in-progress td:last-child {
+    color: #066CDF;
+}
+
+#dates tr.pending td:first-child div {
+    color: #888;
+    background-color: #ccc;
+}
+
+#dates tr.pending td:nth-child(2),
+#dates tr.pending td:last-child {
+    color: rgba(0, 0, 0, .7);
+}
+
+#lengths .content {
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+
+#lengths .pages {
+    font-size: 5em;
+    color: #066CDF;
+}
+
+#lengths .type {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#lengths .actions {
+    margin-top: 50px;
+}
+
+#tracks {
+    background-image: url(../images/index/industry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tracks .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#tracks .track {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    vertical-align: bottom;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 1180px) {
+    #tracks .track {
+        width: 90%;
+    }
+}
+
+#tracks .head {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: .5;
+}
+
+#tracks .track .title {
+    color: white;
+    font-size: 3em;
+}
+
+#tracks .track .description {
+    color: white;
+    opacity: .7;
+}
+
+#tracks .actions {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#topics .topic {
+    display: inline-block;
+    max-width: 30%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 1180px) {
+    #topics .topic {
+        max-width: 45%;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #topics .topic {
+        max-width: 90%;
+    }
+}
+
+#topics .title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#topics .more {
+    display: inline-block;
+    width: 300px;
+    height: 125px;
+}
+
+@media only screen and (max-width: 700px) {
+    #topics .more {
+        width: 100%;
+        height: 75px;
+        margin-bottom: 30px;
+    }
+}
+
+#topics .more .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/index/japan.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F9F8F4;
+}
+
+@media only screen and (max-width: 1180px) { 
+    #map {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    #map {
+        height: 300px;
+    }
+}
+
+#map .title {
+    display: inline-block;
+    margin-top: 25px;
+}
