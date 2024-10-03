@@ -8,7 +8,6 @@
 
 #guide {
     position: relative;
-    padding: 20px;
     margin-top: -150px;
     background-color: rgba(255, 255, 255, .8);
     backdrop-filter: blur(20px);
@@ -30,6 +29,16 @@
     background-color: rgba(255, 255, 255, .9);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+}
+
+#guide .header {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#guide .content {
+    padding: 20px;
+    padding-top: 0px;
 }
 
 #guide .subsection {
@@ -55,14 +64,14 @@
     margin-top: 30px;
 }
 
-#guide  .actions {
+#guide .actions {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
     font-family: "IBM Plex Sans", "Arial", sans-serif;
 }
 
-#guide  .actions .btn {
+#guide .actions .btn {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
