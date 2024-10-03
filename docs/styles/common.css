@@ -187,8 +187,7 @@ section .header h4 {
     font-size: .9em;
     text-align: center;
     background-color: #FAFAFA;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 10px;
 }
 
 #bottom.white {

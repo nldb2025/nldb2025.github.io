@@ -20,6 +20,9 @@ h1.continuous {
 @media only screen and (max-width: 1180px) {
     .section.dual {
         grid-template-columns: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -51,6 +54,13 @@ h1.continuous {
     margin: 15px;
     min-height: 350px;
     height: 350px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .section.margin {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 .member {
