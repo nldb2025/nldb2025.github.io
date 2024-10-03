@@ -1,6 +1,7 @@
 #committees {
     margin-top: 80px;
     text-align: center;
+    overflow-y: hidden;
 }
 
 h1.continuous {
