@@ -250,6 +250,11 @@
     font-size: 1.5em;
 }
 
+#lengths .paper {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
 #lengths .actions {
     margin-top: 50px;
 }
