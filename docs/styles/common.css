@@ -45,7 +45,7 @@ a {
     height: 35px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
     .navigation .box.desktop {
         display: none;
     }
