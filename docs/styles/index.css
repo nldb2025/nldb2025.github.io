@@ -124,6 +124,7 @@
     grid-template-columns: 50% 50%;
     column-gap: 15px;
     row-gap: 15px;
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 1180px) {
