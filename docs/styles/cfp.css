@@ -97,6 +97,19 @@
     vertical-align: top;
 }
 
+@media only screen and (max-width: 1200px) {
+    #topics .topic {
+        max-width: 45%;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #topics .topic {
+        max-width: 90%;
+    }
+}
+
 
 #topics .title {
     font-size: 1.2em;
@@ -190,4 +203,45 @@
 
 #lengths .actions {
     margin-top: 50px;
+}
+
+#lncs .banner {
+    display: grid;
+    grid-template-columns: 500px auto;
+    margin-bottom: 15px;
+}
+
+#lncs .knight {
+    min-height: 300px;
+    background-image: url(../images/index/knight.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lncs .content {
+    align-content: center;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-color: #fafafa;
+}
+
+@media only screen and (max-width: 1180px) {
+    #lncs .banner {
+        grid-template-columns: 100%;
+    }
+
+    #lncs .knight {
+        margin-bottom: 15px;
+    }
+
+    #lncs .content {
+        margin-left: 0px;
+        padding-left: 0px;
+        background-color: white;
+    }
+}
+
+#lncs h4 {
+    margin-top: 30px;
 }
