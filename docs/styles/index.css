@@ -127,16 +127,21 @@
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 1180px) {
-    .section.dual {
-        grid-template-columns: 100%;
-    }
-}
-
 .section.dual > .column {
     text-align: center;
     min-height: 600px;
     height: 600px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .section.dual {
+        grid-template-columns: 100%;
+    }
+
+    .section.dual > .column {
+        min-height: 550px;
+        height: 550px;
+    }
 }
 
 .section.dual > .column.grey {
@@ -374,6 +379,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1180px) {
+    #lncs .knight {
+        display: none;
+    }
 }
 
 #lncs .content {
