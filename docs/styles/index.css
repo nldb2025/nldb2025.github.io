@@ -35,6 +35,15 @@
     width: 600px;
 }
 
+.landing .logo .info {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+    max-width: 80%;
+    width: 600px;
+    opacity: .8;
+}
+
 .landing .village img {
     width: 100%;
     max-width: 1700px;
